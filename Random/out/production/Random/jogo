@@ -1,0 +1,12 @@
+
+Este código cria um jogo simples no qual o usuário deve adivinhar qual é o número aleatório gerado entre 0 e 9.
+
+Ele começa importando o pacote java.util.Random e java.util.Scanner, que são usados ​​para gerar um número aleatório e ler a entrada do usuário, respectivamente.
+
+Em seguida, cria-se um objeto Random e um objeto Scanner. O objeto Random é usado para gerar o número aleatório, enquanto o objeto Scanner é usado para ler a entrada do usuário.
+
+Depois disso, usa-se o método nextInt () para gerar um número aleatório entre 0 e 9.
+
+O usuário é então solicitado a adivinhar o número. Seu palpite é armazenado na variável numeroDoUsuario.
+
+Por fim, usa-se um if statement para comparar o palpite do usuário com o número aleatório. Se forem iguais, o usuário acertou. Caso contrário, mostra-se qual era o número correto.
